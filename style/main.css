@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+}
+
+body{
+    color:white;
+    height: 100%;
+}
+nav{
+    background-color: rgba(255, 255, 255, 0.041);
+    position: fixed;
+    top:0;left:0;
+    width:100%;
+    z-index: 1;
+}
+nav div{
+    font-size: 3vh;
+    font-weight: bold;
+}
+nav .logo{
+    height:50px;
+    padding:5px;
+    /* box-shadow: #0c0b0b96 0px 0px 2px ; */
+    filter: drop-shadow(#beb2b296 0px 0px 2px);
+    transition: all 300ms;
+
+}
+nav .logo:hover{
+    transform: translateY(-3px);
+}
+.pre-hero-section{
+    background-image: url(../assets/pre-hero-image2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-clip: border-box;
+    background-attachment: fixed;
+    width:100%;height:100%;
+    margin: auto ;
+}
+.pre-hero-section  .content.container{
+    
+    position: relative;
+    top:25%;
+    margin:auto;
+    text-align: center;
+}
+
+.pre-hero-section .filter{
+    /* height: 100%;
+    width: 100%; */
+    /* background-color: rgba(3, 3, 3, 0.42); */
+}
+
+
+.pre-hero-section .content.container .sticker{
+    
+    width: 150px;
+    filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.582));
+}
